@@ -11,7 +11,7 @@ def banner():
      _         _        
     / \  _   _| |_ ___  Author: {}
    / _ \| | | | __/ _ \ Team: {}
-  / ___ \ |_| | || (_) |webTraffic
+  / ___ \ |_| | || (_) |webTraffic Beta v.0.1
  /_/   \_\__,_|\__\___/ 
         """.format(__author__, __TEAM__)
 list = []
@@ -91,9 +91,5 @@ if __name__ == "__main__":
     if url:
         url = "https://"+url
     jml = 1
-    banner()
-#    pid = raw_input("insert PID: ")
-#    vote = raw_input("insert check Vote: ")
-#    jml = int(raw_input("Jumlah grab: "))
-#    url = raw_input("insert Url: ")    
+    banner()  
     start(jml, url)
